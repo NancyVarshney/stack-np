@@ -1,7 +1,7 @@
 import java.util.*;
 class Emp{
-    private int empid;
-    private String name;
+    public int empid;
+    public String name;
 
     public Emp(int empid,String name)
     {
@@ -87,9 +87,6 @@ public class Mystack1 {
         obj.push(e3);
         obj.push(e4);
         obj.push(e5);
-        obj.pop();
-        obj.pop();
-        obj.pop();
         obj.pop();
         obj.pop();
     }
